@@ -51,6 +51,52 @@ body{
     margin-top: 1%;
     padding: 4%;
 }
+.advertisingdatos{
+    height: 18em;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    display: flex;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #407a99,#063852, #011a27);
+}
+.comerdatos{
+    height: 80%;
+    width: 100%;
+    color: #ffffff;
+    margin-top: 0.5%;
+    text-align: left;
+}
+.comerdatos h3{
+    margin-top: 0.5%;
+    padding: 1%;
+}
+.comerdatos p{
+    margin-top: 1%;
+    padding: 2%;
+}
+.advertisingotro{
+    height: 30em;
+    width: 100%;
+    margin-top: 1%;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #44eb23;
+    background-image: linear-gradient(to right, #407a99,#063852, #011a27);
+}
+.comerotro{
+    width: 40%;
+    color: #ffffff;
+}
+.comerotro h3{
+    margin-top: 5%;
+    padding: 5%;
+}
+.comerotro p{
+    margin-top: 1%;
+    padding: 4%;
+}
 .imgs{
     width: 60%;
 }
@@ -61,7 +107,7 @@ body{
     border-radius: 10px;
 }
 .contact{
-    height: 25em;
+    height: 20em;
     width: 100%;
     margin-top: 1%;
     display: flex;
@@ -85,13 +131,13 @@ body{
     
 }
 .datos div{
-    margin-top: 2%;
+    margin-top: 1%;
     height: auto;
     width: 50%;
     display: flex;
     flex-direction: column;
-    border-left: 1px solid #011a27;
-    padding: 2%;
+    border-left: 1px solid #271201;
+    padding: 1%;
 }
 .datos p{
     margin-right: 10%;
@@ -109,8 +155,8 @@ body{
     border-radius: 10px 10px 10px 10px; 
 }
 .datos div button{
-    margin-top: 5%;
-    height: 10%;
+    margin-top: 3%;
+    height: 15%;
     width: 80%;
     border-radius: 10px 10px 10px 10px; 
 }
