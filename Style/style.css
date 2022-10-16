@@ -1,10 +1,10 @@
 body{
     background-image: radial-gradient(at 20px 20px,#063852, #011620);
 }
-.container{
+.contain{
     height: auto;
     width: 100%;
-    border: 1px solid yellow;
+    padding: 1%;
 }
 .banner{
     height: 100%;
@@ -22,24 +22,47 @@ body{
     justify-content: flex-end;
     margin-right: 10%;
 }
-.text{
-    margin-top: 3%;
-    padding: 2%;
+.menu .text{
+    margin-top: 1%;
+    padding: 1%;
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: 20px;
 }
 .advertising{
-    border: 1px solid pink;
     height: 30em;
     width: 100%;
     margin-top: 1%;
+    display: flex;
+}
+.comer{
+    width: 40%;
+    color: #ffffff;
+}
+.comer h3{
+    margin-top: 5%;
+    padding: 5%;
+}
+.comer p{
+    margin-top: 1%;
+    padding: 4%;
+}
+.imgs{
+    width: 60%;
+}
+.imgs img{
+    margin-left: 20%;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
 }
 .contact{
     height: 25em;
     width: 100%;
     margin-top: 2%;
     display: flex;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#96b8f8 , #407a99,#063852, #011a27);
 }
 .geolocal{
     width: 40%;
@@ -54,6 +77,7 @@ body{
     font-size: large; 
     display: flex;
     flex-direction: row;
+    
 }
 .datos div{
     margin-top: 2%;
@@ -62,21 +86,24 @@ body{
     display: flex;
     flex-direction: column;
 }
+.datos p{
+    margin-right: 10%;
+}
 .datos div input{
     margin-top: 5%;
     height: 10%;
-    width: 95%;
+    width: 80%;
     border-radius: 10px 10px 10px 10px; 
 }
 .datos div textarea{
     height: 30%;
     margin-top: 5%;
-    width: 95%;
+    width: 80%;
     border-radius: 10px 10px 10px 10px; 
 }
 .datos div button{
     margin-top: 5%;
     height: 10%;
-    width: 98%;
+    width: 80%;
     border-radius: 10px 10px 10px 10px; 
 }
