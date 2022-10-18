@@ -131,9 +131,7 @@ body{
     width: auto;
     height: auto;
 }
-img.cover{
-    object-fit: cover;
-}
+
 .sedeinfo{
     border: 1px solid rgb(143, 31, 208);
     width: 50%;
