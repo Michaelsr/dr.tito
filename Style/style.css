@@ -1,8 +1,14 @@
+body{
+    padding: 0.1%;
+}
 .contain{
     border: 1px solid green;
+    background-color: #bbc5bb;
 }
 .header{
-    border: 1px solid rgb(26, 28, 26);
+    /* border: 1px solid rgb(26, 28, 26); */
+    background-color: #265557;
+    color: #ffffff;
     width: 100%;
     height: 5em;
     display: flex;
@@ -12,19 +18,30 @@
     width: 33%;
     height: 100%;
     margin-left: 0.5%;
+    display: flex;
+    padding: 1%;
 }
 .logo{
     border: 1px solid rgb(29, 29, 208);
     width: 33%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    max-width: 40%;
+    background-color: #ffffff;
 }
 .dos{
     border: 1px solid rgb(214, 71, 24);
     width: 33%;
     height: 100%;
     margin-right: 0.5%;
+    display: flex;
+    padding: 1%;
 }
 .bodys{
+    margin-top: 1.5%;
     border: 1px solid rgb(137, 197, 10);
     width: 100%;
     height: 30em;
@@ -39,6 +56,7 @@
     width: 50%;
 }
 .especialidades{
+    margin-top: 1.5%;
     border: 1px solid rgb(67, 82, 36);
     width: 100%;
     height: 30em;
@@ -65,6 +83,7 @@
     height: 100%;
 }
 .sede{
+    margin-top: 1.5%;
     border: 1px solid rgb(67, 82, 36);
     width: 100%;
     height: 30em;
@@ -91,6 +110,7 @@
     height: 100%;
 }
 .foother{
+    margin-top: 1.5%;
     border: 1px solid rgb(224, 79, 21);
     width: 100%;
     height: 18em;
