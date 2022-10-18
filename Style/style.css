@@ -128,7 +128,10 @@ body{
     margin-left: 5%;
 }
 .sedeimg img{
-    height: calc(95% - 9px);
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 70%;
     border-radius: 10px;
 }
 img.cover{
