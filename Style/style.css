@@ -52,6 +52,12 @@ body{
     font-size: medium;
     margin-right: 10%;
 }
+.uno a{
+    color: #ffffff;
+}
+.dos a{
+    color: #ffffff;
+}
 .bodys{
     margin-top: 1.5%;
     border: 1px solid rgb(137, 197, 10);
