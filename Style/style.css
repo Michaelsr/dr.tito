@@ -2,11 +2,10 @@ body{
     padding: 0.1%;
 }
 .contain{
-    border: 1px solid green;
-    background-color: #bbc5bb;
+    background-color: #ffffff;
 }
+
 .header{
-    /* border: 1px solid rgb(26, 28, 26); */
     background-color: #265557;
     color: #ffffff;
     width: 100%;
@@ -15,110 +14,156 @@ body{
     border-radius: 10px;
 }
 .uno{
-    border: 1px solid rgb(54, 219, 54);
     width: 33%;
     height: 100%;
     margin-left: 0.5%;
     display: flex;
-    padding: 1%;
 }
-.uno p{
-    padding: 1%;
-    font-size: medium;
-    margin-left: 10%;
-}
+    .uno div{
+        width: 33%;
+        height: 4.8em;
+        margin-left: 3%;
+        text-align: center;
+        display: flex;
+    }
+
+    .uno a{
+        color: #ffffff;
+        width: 100%;
+        margin: auto;
+    }
+    .uno a:hover{
+        color: #ffffff;
+    }
+    .uno div:hover{
+        background-color: #41696b;
+    }
+
 .logo{
-    border: 1px solid rgb(29, 29, 208);
     width: 33%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
-.logo img{
-    max-width: 40%;
-    background-color: #ffffff;
-}
-.dos{
-    border: 1px solid rgb(214, 71, 24);
+    .logo img{
+        max-width: 40%;
+        background-color: #ffffff;
+    }
+
+.dos{   
     width: 33%;
     height: 100%;
     margin-right: 0.5%;
     display: flex;
-    justify-content: flex-end;
-    padding: 1%;
 }
-.dos p{
-    padding: 1%;
-    font-size: medium;
-    margin-right: 10%;
-}
-.uno a{
-    color: #ffffff;
-}
-.dos a{
-    color: #ffffff;
-}
+    .dos div{
+        width: 33%;
+        height: 4.8em;
+        margin-right: 3%;
+        text-align: center;
+        display: flex;
+    }
+    .dos a{
+        color: #ffffff;
+        width: 100%;
+        margin: auto;
+        text-decoration: none;
+    }
+    .dos a:hover{
+        color: #ffffff;
+    }
+    .dos div:hover{
+        background-color: #41696b;
+    }
+
+
+
+
+
 .bodys{
     margin-top: 1.5%;
-    border: 1px solid rgb(137, 197, 10);
     width: 100%;
     height: 30em;
     display: flex;
 }
-.parr{
-    border: 1px solid rgb(20, 97, 221);
-    width: 50%;
-    padding: 1%;
-}
-.imgs{
-    border: 1px solid rgb(227, 17, 202);
-    width: 50%;
-}
-.servicios{
-    margin-top: 1.5%;
-    border: 1px solid rgb(65, 73, 47);
-    width: 100%;
-    height: 30em;
-    display: flex;
-    justify-content: center;
-}
-.servi{
-    width: 50%;
-    height: auto;
-    border: 1px solid rgb(14, 149, 228);
-    padding: 2%;
-}
+    .imgs{
+        border: 1px solid rgb(227, 17, 202);
+        width: 100%;
+    }
+
+
+
 .especialidades{
     margin-top: 1.5%;
-    border: 1px solid rgb(67, 82, 36);
     width: 100%;
     height: 30em;
     display: flex; 
+    justify-content: center;
 }
-.espeuno{
-    border: 1px solid rgb(137, 197, 10);
-    width: 25%;
-    height: 100%;
-    padding: 1%;
-}
-.espedos{
-    border: 1px solid rgb(126, 164, 44);
-    width: 25%;
-    height: 100%;
-    padding: 1%;
-}
-.espetres{
-    border: 1px solid rgb(43, 27, 218);
-    width: 25%;
-    height: 100%;
-    padding: 1%;
-}
-.especuatro{
-    border: 1px solid rgb(209, 164, 28);
-    width: 25%;
-    height: 100%;
-    padding: 1%;
-}
+
+    .espeuno{
+        background-color: #265557;
+        width: 24%;
+        height: 100%;
+        padding: 1%;
+        margin: 0.3%;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+    .espeuno:hover{
+        background-color: #41696b;
+    }
+    .espeuno .card{
+        background-color: #265557;
+    }
+    .espedos{
+        background-color: #265557;
+        width: 24%;
+        height: 100%;
+        padding: 1%;
+        margin: 0.3%;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+    .espedos:hover{
+        background-color: #41696b;
+    }
+    .espedos .card{
+        background-color: #265557;
+    }
+    .espetres{
+        background-color: #265557;
+        width: 24%;
+        height: 100%;
+        padding: 1%;
+        margin: 0.3%;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+    .espetres:hover{
+        background-color: #41696b;
+    }
+    .espetres .card{
+        background-color: #265557;
+    }
+    .especuatro{
+        background-color: #265557;
+        width: 24%;
+        height: 100%;
+        padding: 1%;
+        margin: 0.3%;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+    .especuatro:hover{
+        background-color: #41696b;
+    }
+    .especuatro .card{
+        background-color: #265557;
+    }
+
+
+    
 .sede{
     margin-top: 1.5%;
     border: 1px solid rgb(67, 82, 36);
@@ -126,63 +171,51 @@ body{
     height: 30em;
     display: flex; 
 }
-.sedeimg{
-    border: 1px solid rgb(226, 42, 110);
-    width: 50%;
-    height: 100%;
-    border-radius: 10px;
-    margin-left: 5%;
-}
-.sedeimg img{
-    width: auto;
-    height: auto;
-}
+    .imgsede{
+        border: 1px solid rgb(153, 241, 9);
+        width: 100%;
+        height: auto;
+    }
 
-.sedeinfo{
-    border: 1px solid rgb(143, 31, 208);
-    width: 50%;
-    height: 100%;
-    padding: 2%;
-}
+
+
 .foother{
     margin-top: 1.5%;
-    border: 1px solid rgb(224, 79, 21);
     width: 100%;
     height: 18em;
     display: flex;
+    color: #ffffff;
+    background: #265557;
 }
-.geo{
-    border: 1px solid rgb(84, 67, 16);
-    width: 33%;
-    height: 100%;
-    padding: 1%;
-}
-.informacion{
-    border: 1px solid rgb(84, 67, 16);
-    width: 33%;
-    height: 100%;
-    padding: 1%;
-}
-.informacion p{
-    margin-top: 5%;
-}
-.msm{
-    border: 1px solid rgb(84, 67, 16);
-    width: 33%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1%;
-}
-.msm input{
-    margin-top: 3%;
-    width: 80%;
-}
-.msm textarea{
-    margin-top: 3%;
-    width: 80%;
-}
-.msm button{
-    margin-top: 3%;
-    width: 80%;
-}
+    .geo{
+        width: 33%;
+        height: 100%;
+        padding: 1%;
+    }
+    .informacion{
+        width: 33%;
+        height: 100%;
+        padding: 1%;
+    }
+    .informacion p{
+        margin-top: 5%;
+    }
+    .msm{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+    }
+    .msm input{
+        margin-top: 3%;
+        width: 80%;
+    }
+    .msm textarea{
+        margin-top: 3%;
+        width: 80%;
+    }
+    .msm button{
+        margin-top: 3%;
+        width: 80%;
+    }

@@ -14,61 +14,57 @@
 </head>
 <body>
   <div class="contain">
-    <div class="header">
+    <div id="header" class="header">
         <div class="uno">
-            <p>Home</p>
-            <p><a href="#servicios">Servicios</a> </p>
-            <p><a href="#especialidades">Especialidades</a></p>
+            <div><a href="#header">Home</a></div>
+            <div><a href="#especialidades">Especialidades</a></div>
         </div>
-        <div class="logo"><img src="Img/logo2.png" alt="Logo"/></div>
+        <div class="logo">
+          <img src="Img/logo2.png" alt="Logo"/>
+        </div>
         <div class="dos">
-            <p><a href="#foother">Contactos</a></p>
-            <p><a href="#sede">sedes</a></p>
+            <div><a href="#foother">sedes</a></div>
+            <div><a href="#sede">Contactos</a></div>
         </div>
     </div>
+
     <div class="bodys">
-        <div class="parr">
-            <h3>Nosotros</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, iusto. Ducimus non aut perferendis nisi fuga optio itaque voluptate facere cupiditate. Possimus, vel facilis reiciendis dolorem fuga impedit. Odio, nemo.</p>
-        </div>
         <div class="imgs">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="..." alt="primera img">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="Segunda img">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="..." alt="tercera imagen">
-                  </div>
-                </div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="..." alt="First slide">
               </div>
-        </div>
-    </div>
-    <div id="servicios" class="servicios">
-        <div class="servi">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <p>Hola 01</p>
-                  </div>
-                  <div class="carousel-item">
-                    <p>Hola 02</p>
-                  </div>
-                  <div class="carousel-item">
-                    <p>Hola 03</p>
-                  </div>
-                </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="..." alt="Third slide">
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+          </div>
         </div>
     </div>
+
+
     <div id="especialidades" class="especialidades">
         <div class="espeuno">
             <h3>Especialidad de ....</h3> <br>
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="Img/logo2.png" alt="Card image cap">
+                <img class="card-img-top" src="" alt="imagen01">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -77,7 +73,7 @@
         <div class="espedos">
             <h3>Especialidad de ....</h3> <br>
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="Img/logo2.png" alt="Card image cap">
+                <img class="card-img-top" src="" alt="imagen02">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -86,7 +82,7 @@
         <div class="espetres">
             <h3>Especialidad de ....</h3> <br>
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="Img/logo2.png" alt="Card image cap">
+                <img class="card-img-top" src="" alt="imagen03">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
@@ -95,46 +91,34 @@
         <div class="especuatro">
             <h3>Especialidad de ....</h3> <br>
             <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="Img/logo2.png" alt="Card image cap">
+                <img class="card-img-top" src="" alt="imagen04">
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
         </div>
     </div>
+
+
     <div id="sede" class="sede">
-        <div class="sedeimg">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="d-block w-100" src="Img/sicuani.jpg" alt="First slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="Img/Arebuena2.jpg" alt="Second slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="Img/Ayaviri.jpg" alt="Third slide">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-block w-100" src="Img/fachada.jpg" alt="Fourd slide">
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+      <div class="imgsede">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="..." alt="First slide">
             </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Third slide">
+            </div>
+          </div>
         </div>
-        <div class="sedeinfo">
-            <h3>Sicuani</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi labore, molestiae dignissimos rem esse quidem nisi neque omnis obcaecati vero eaque natus, dolor, odio repellat iusto beatae. Pariatur, suscipit eveniet!</p>
-        </div>
-        
+      </div>
     </div>
+
+
     <div id="foother" class="foother">
         <div class="geo">
             <h3>Geolocalizacion</h3>
