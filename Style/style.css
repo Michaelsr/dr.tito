@@ -84,16 +84,20 @@ body{
     margin-top: 0.5%;
     width: 100%;
     height: 40em;
+    display: flex; 
+    justify-content: center;
 }
     .imgs{
-        width: 100%;
+        width: 98%;
         height: auto;
+        
     }
 
     .imgs img{
         width: 100%;
         height: 40em;
         object-fit: cover;
+        border-radius: 10px;
     }
 
 .especialidades{
@@ -193,6 +197,7 @@ body{
     display: flex;
     color: #ffffff;
     background: #265557;
+    border-radius: 10px;
 }
     .geo{
         width: 33%;
